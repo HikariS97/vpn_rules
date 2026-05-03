@@ -1,13 +1,8 @@
 # VPN Rules Configuration
-# Add your routing rules below
 
 rules:
-  - description: "Example rule - direct traffic to internal network"
-    destination: "10.0.0.0/8"
-    action: "direct"
-    comment: "Route internal traffic outside VPN"
-
-  - description: "Example rule - route traffic through VPN"
-    destination: "0.0.0.0/0"
-    action: "vpn"
-    comment: "Default route through VPN"
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
