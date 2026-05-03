@@ -1,0 +1,13 @@
+# VPN Rules Configuration
+# Add your routing rules below
+
+rules:
+  - description: "Example rule - direct traffic to internal network"
+    destination: "10.0.0.0/8"
+    action: "direct"
+    comment: "Route internal traffic outside VPN"
+
+  - description: "Example rule - route traffic through VPN"
+    destination: "0.0.0.0/0"
+    action: "vpn"
+    comment: "Default route through VPN"
