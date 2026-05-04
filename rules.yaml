@@ -52,5 +52,23 @@ rules:
   # 学术资源
   - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
 
+  # 中国大陆服务
+  # HKUST-GZ
+  - DOMAIN-SUFFIX,hkust-gz.edu.cn,DIRECT
+
+  # DingTalk / Alibaba
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalkapps.com,DIRECT
+  - DOMAIN-SUFFIX,dingding.xin,DIRECT
+  - DOMAIN-SUFFIX,dingrtc.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,aliyuncs.com,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,alibabacloud.com,DIRECT
+  - DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,mmstat.com,DIRECT
+
   # Apple IP 段
   - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
