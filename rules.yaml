@@ -1,6 +1,9 @@
 # VPN Rules Configuration
 
 rules:
+  # Apple 主域名
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+
   # Apple Push Notification service，通知/iMessage 很关键
   - DOMAIN-SUFFIX,push.apple.com,DIRECT
   - DOMAIN-SUFFIX,ess.apple.com,DIRECT
@@ -48,3 +51,6 @@ rules:
 
   # 学术资源
   - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
+
+  # Apple IP 段
+  - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
