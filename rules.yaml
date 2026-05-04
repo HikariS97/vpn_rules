@@ -55,6 +55,8 @@ rules:
   # 中国大陆服务
   # HKUST-GZ
   - DOMAIN-SUFFIX,hkust-gz.edu.cn,DIRECT
+  - IP-CIDR,10.120.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.121.0.0/16,DIRECT,no-resolve
 
   # DingTalk / Alibaba
   - DOMAIN-SUFFIX,dingtalk.com,DIRECT
