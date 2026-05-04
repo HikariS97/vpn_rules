@@ -72,5 +72,39 @@ rules:
   - DOMAIN-SUFFIX,tmall.com,DIRECT
   - DOMAIN-SUFFIX,mmstat.com,DIRECT
 
+  # Microsoft / Outlook
+  - DOMAIN-SUFFIX,outlook.com,DIRECT
+  - DOMAIN-SUFFIX,outlook.office.com,DIRECT
+  - DOMAIN-SUFFIX,outlook.office365.com,DIRECT
+  - DOMAIN-SUFFIX,office365.com,DIRECT
+  - DOMAIN-SUFFIX,office.com,DIRECT
+  - DOMAIN-SUFFIX,office.net,DIRECT
+  - DOMAIN-SUFFIX,live.com,DIRECT
+  - DOMAIN-SUFFIX,microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+  - DOMAIN-SUFFIX,microsoftonline-p.com,DIRECT
+  - DOMAIN-SUFFIX,msftauth.net,DIRECT
+  - DOMAIN-SUFFIX,msftauthimages.net,DIRECT
+  - DOMAIN-SUFFIX,msauth.net,DIRECT
+  - DOMAIN-SUFFIX,msauthimages.net,DIRECT
+  - DOMAIN-SUFFIX,cloud.microsoft,DIRECT
+  - DOMAIN-SUFFIX,onmicrosoft.com,DIRECT
+
+  # Outlook autodiscover / diagnostics / CDN
+  - DOMAIN,autodiscover.outlook.com,DIRECT
+  - DOMAIN,autodiscover-s.outlook.com,DIRECT
+  - DOMAIN,outlook.office365.com,DIRECT
+  - DOMAIN,login.microsoftonline.com,DIRECT
+  - DOMAIN,login.live.com,DIRECT
+  - DOMAIN,login.windows.net,DIRECT
+  - DOMAIN,officecdn.microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,msocdn.com,DIRECT
+  - DOMAIN-SUFFIX,msecnd.net,DIRECT
+
+  # 浙江大学邮箱
+  - DOMAIN,mail.zju.edu.cn,DIRECT
+  - DOMAIN,imap.zju.edu.cn,DIRECT
+  - DOMAIN,smtp.zju.edu.cn,DIRECT
+
   # Apple IP 段
   - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
