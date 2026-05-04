@@ -20,3 +20,4 @@ rules:
   - DOMAIN,probe.icloud.com,DIRECT
   - DOMAIN,pong.icloud.com,DIRECT
   - DOMAIN,metrics.icloud.com,DIRECT
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
