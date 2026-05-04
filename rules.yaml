@@ -1,8 +1,22 @@
 # VPN Rules Configuration
 
 rules:
-  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN,account.apple.com,DIRECT
+  - DOMAIN,appleid.cdn-apple.com,DIRECT
+  - DOMAIN,idmsa.apple.com,DIRECT
+  - DOMAIN,gsa.apple.com,DIRECT
   - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+  - DOMAIN-SUFFIX,icloud.apple.com,DIRECT
   - DOMAIN-SUFFIX,icloud-content.com,DIRECT
   - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-  - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
+  - DOMAIN-SUFFIX,apple-livephotoskit.com,DIRECT
+  - DOMAIN-SUFFIX,iwork.apple.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,gc.apple.com,DIRECT
+  - DOMAIN,mask.icloud.com,DIRECT
+  - DOMAIN,mask-h2.icloud.com,DIRECT
+  - DOMAIN,mask-api.icloud.com,DIRECT
+  - DOMAIN,probe.icloud.com,DIRECT
+  - DOMAIN,pong.icloud.com,DIRECT
+  - DOMAIN,metrics.icloud.com,DIRECT
