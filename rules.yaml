@@ -51,7 +51,7 @@ rules:
   - DOMAIN,valid.apple.com,DIRECT
 
   # 学术资源
-  - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
+  - DOMAIN-SUFFIX,ieee.org,DIRECT
 
   # 中国大陆服务
   # HKUST-GZ
