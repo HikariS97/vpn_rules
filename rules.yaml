@@ -7,6 +7,7 @@ rules:
   # Apple Push Notification service，通知/iMessage 很关键
   - DOMAIN-SUFFIX,push.apple.com,DIRECT
   - DOMAIN-SUFFIX,ess.apple.com,DIRECT
+  - DST-PORT,5223,DIRECT
 
   # Apple Account 登录认证
   - DOMAIN,account.apple.com,DIRECT
@@ -100,11 +101,16 @@ rules:
   - DOMAIN,officecdn.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,msocdn.com,DIRECT
   - DOMAIN-SUFFIX,msecnd.net,DIRECT
+  - DST-PORT,465,DIRECT
+  - DST-PORT,587,DIRECT
 
   # 浙江大学邮箱
+  - DOMAIN-SUFFIX,zju.edu.cn,DIRECT
   - DOMAIN,mail.zju.edu.cn,DIRECT
   - DOMAIN,imap.zju.edu.cn,DIRECT
   - DOMAIN,smtp.zju.edu.cn,DIRECT
+  - DST-PORT,993,DIRECT
+  - DST-PORT,994,DIRECT
 
   # Apple IP 段
   - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
